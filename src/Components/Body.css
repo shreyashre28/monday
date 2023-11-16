@@ -1,0 +1,12 @@
+#whole{
+    background-color:lightblue;
+}
+#txt{
+    justify-content: center;
+    align-items:center ;
+    padding: 2.5px  275px 2.5px 300px;
+}
+#info{
+    align-items: flex-start;
+    padding: 2px 100px 2px 100px;
+}
