@@ -36,13 +36,13 @@ const Body = () => {
                 {/* destructuring */}
                 <button onClick={count}>Like</button>
             </div>
-            <div style={{ paddingTop: '30px' }}>
+            <div style={{ paddingTop: 'px' }}>
                 <label htmlFor="Name">Name : </label>
                 <input type="text" value={text} onChange={(e) => setText(e.target.value)} />
                 <p>onutput : {text}</p>
                 <button onClick={reset}>Reset</button>
             </div>
-            <div style={{ paddingTop: '30px', display: 'flex', justifyContent: 'margin', alignItems: 'margin', flexDirection: 'column' }}>
+            <div style={{ paddingTop: '50px', display: 'flex', justifyContent: 'margin', alignItems: 'margin', flexDirection: 'column' }}>
                 {/* pass down url link in url attribuite */}
                 <ReactPlayer url={'https://www.youtube.com/watch?v=LLgtNiYgHQQ'} height={200}  width={200}controls />
                 <div>
