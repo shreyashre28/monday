@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "guru",
+      "complted": false,
+      "id": 2
+    },
+    {
+      "title": "",
+      "id": 3
+    },
+    {
+      "title": "",
+      "completed": false,
+      "id": 7
+    },
+    {
+      "title": "chinmayi",
+      "id": 8
+    },
+    {
+      "title": "cse",
+      "id": 9
+    },
+    {
+      "title": "",
+      "id": 10
+    },
+    {
+      "title": "",
+      "id": 11
+    },
+    {
+      "title": "",
+      "id": 12
+    },
+    {
+      "title": "shreya",
+      "id": 13
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
